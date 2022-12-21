@@ -10,11 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
 
-
+    
+    @IBAction func choiceMade(_ sender: UIButton) {
+        
+    }
+    
 }
 
